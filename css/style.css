@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: url(/img/bg.png);
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 7%;
+}
+
+.logo:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 600px;
+  display: flex;
+  background: none;
+  border-bottom: solid 3.5px white;
+  border-right: none;
+  margin-right: 200px;
+  font-weight: 400;
+  color: white;
+}
+
+.profile-icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.heading {
+  margin-top: 110px;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  font-size: 65px;
+  -webkit-text-stroke-width: 3px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.get-started {
+  background-color: #fc11ba;
+  color: #e5e5e5;
+  text-align: center;
+  width: 350px;
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 90px;
+  font-size: 25px;
+}
+
+.get-started:hover {
+  background-color: rgba(252, 17, 186, 0.8);
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  background-color: #e5e5e5;
+  padding: 30px 5%;
+  padding-bottom: 80px;
+}
+
+.blockbuster-hits {
+  margin-bottom: 20px;
+}
+
+.four-movies {
+  display: flex;
+}
+
+.avatar,
+.endgame,
+.titanic,
+.star-wars,
+.infinity-war,
+.jurassic-world,
+.lion-king,
+.the-avengers {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.avatar:hover,
+.endgame:hover,
+.titanic:hover,
+.star-wars:hover,
+.infinity-war:hover,
+.jurassic-world:hover,
+.lion-king:hover,
+.the-avengers:hover {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+
+.movie-text {
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.blockbuster-hits-part-two {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #3a3a3a;
+}
+
+.icons-selector {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-twitter {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+  margin-right: 78px;
+}
+
+.icon-yt {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+}
+
+.icon-fb {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+  margin-right: 78px;
+}
+
+.icon-fb:hover,
+.icon-twitter:hover,
+.icon-yt:hover {
+  filter: invert(1) brightness(50%);
+  cursor: pointer;
+}
+
+.footer-text {
+  margin-top: 70px;
+  padding-bottom: 30px;
+  font-family: "Gugi", cursive;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+}
