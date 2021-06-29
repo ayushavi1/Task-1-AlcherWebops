@@ -9,7 +9,7 @@
 }
 
 header {
-  background-image: url(/Task-1-AlcherWebops/img/bg.png);
+  background-image: url(/Task-AlcherWebops/img/bg.png);
   background-size: cover;
 }
 
@@ -77,40 +77,28 @@ input[type="text"] {
 
 section {
   background-color: #e5e5e5;
-  padding: 30px 5%;
+  padding: 30px 4%;
   padding-bottom: 80px;
 }
 
-.blockbuster-hits {
+#results {
   margin-bottom: 20px;
 }
 
-.four-movies {
+#main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.avatar,
-.endgame,
-.titanic,
-.star-wars,
-.infinity-war,
-.jurassic-world,
-.lion-king,
-.the-avengers {
-  width: 320px;
+.movie-img {
+  width: 300px;
   height: 220px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.avatar:hover,
-.endgame:hover,
-.titanic:hover,
-.star-wars:hover,
-.infinity-war:hover,
-.jurassic-world:hover,
-.lion-king:hover,
-.the-avengers:hover {
+.movie-img:hover {
   filter: brightness(70%);
   cursor: pointer;
 }
@@ -123,7 +111,8 @@ section {
 }
 
 .movie-text {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   font-weight: 700;
   cursor: pointer;
 }

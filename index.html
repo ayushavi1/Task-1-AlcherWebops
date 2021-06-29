@@ -11,7 +11,7 @@
     <header>
       <nav>
         <a href="#"><img class="logo" src="img/logo.svg" alt="logo" /></a>
-        <input class="search-box" type="text" placeholder="Search movie here" />
+        <form id="form"><input id="search-box" type="text" placeholder="Search movie here" /></form>
         <a href="#"
           ><img class="profile-icon" src="img/profile.svg" alt="profile icon"
         /></a>
@@ -25,64 +25,29 @@
     </header>
 
     <section>
-      <h2 class="blockbuster-hits">BLOCKBUSTER HITS</h2>
-      <div class="four-movies">
+      <h2 id="results">BLOCKBUSTER HITS</h2>
+      <main id="main">
         <div class="movie">
-          <img class="avatar" src="img/Avatar.jpg" alt="Avatar" />
+          <img class="movie-img" src="img/Avatar.jpg" alt="Avatar" />
           <p class="movie-text">Avatar (2009)</p>
         </div>
         <div class="movie">
-          <img class="endgame" src="img/Endgame.jpg" alt="Avengers: Endgame" />
+          <img class="movie-img" src="img/Endgame.jpg" alt="Avengers: Endgame" />
           <p class="movie-text"> Avengers: Endgame (2019)</p>
         </div>
         <div class="movie">
-          <img class="titanic" src="img/Titanic.jpg" alt="Titanic" />
+          <img class="movie-img" src="img/Titanic.jpg" alt="Titanic" />
           <p class="movie-text">Titanic (1997)</p>
         </div>
         <div class="movie">
           <img
-            class="star-wars"
+            class="movie-img"
             src="img/Star Wars.jpg"
             alt="Star Wars: The Force Awakens"
           />
           <p class="movie-text">Star Wars: The Force Awakens (2015)</p>
         </div>
-      </div>
-      <h2 class="blockbuster-hits-part-two">BLOCKBUSTER HITS</h2>
-      <div class="four-movies">
-        <div class="movie">
-          <img
-            class="infinity-war"
-            src="img/Infinity War.jpg"
-            alt="Avengers: Infinity War"
-          />
-          <p class="movie-text">Avengers: Infinity War (2018)</p>
-        </div>
-        <div class="movie">
-          <img
-            class="jurassic-world"
-            src="img/Jurassic World.jpg"
-            alt="Jurassic World"
-          />
-          <p class="movie-text">Jurassic World (2015)</p>
-        </div>
-        <div class="movie">
-          <img
-            class="lion-king"
-            src="img/The Lion King.jpg"
-            alt="The Lion King"
-          />
-          <p class="movie-text">The Lion King (2019)</p>
-        </div>
-        <div class="movie">
-          <img
-            class="the-avengers"
-            src="img/The Avengers.png"
-            alt="The Avengers"
-          />
-          <p class="movie-text">The Avengers (2012)</p>
-        </div>
-      </div>
+      </main>
     </section>
     <footer>
       <div class="icons-selector">
@@ -96,5 +61,6 @@
         <p class="footer-text"><span class="copyright">&#169</span> 2021 AlcherStream</p>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
